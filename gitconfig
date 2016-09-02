@@ -1,0 +1,12 @@
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[user]
+	name = cadamini
+	email = christian.adamini@invision.de
+[push]
+	default = simple
+[core]
+	editor = subl -w
+[commit]
+  template = ~/.gitmessage
